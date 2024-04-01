@@ -1,0 +1,207 @@
+body {
+    color: rgb(0, 0, 0);
+    font-family: Lepka;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Sirenia;
+    src: url(Шрифты/Floodfonts\ -\ Sirenia\ Bold.otf);
+}
+
+@font-face {
+    font-family: Brigantina;
+    src: url(Шрифты/ST-Brigantina-free.otf);
+}
+
+@font-face {
+    font-family: Lepka;
+    src: url(шрифты/LEPKA.otf);
+}
+
+.main {
+    padding: 400px;
+    background-image: url(Frame_6.png);
+    background-size: cover;
+    border-radius: 15px;
+    margin:20px;
+}
+
+.main-txt {
+    font-size: 185px;
+    color: white;
+    padding: 0;
+}
+
+.main-dsc {
+    font-size: 25px;
+    color: white;
+}
+
+@media (min-width:992px) {
+    .qr-code {
+        display: none;
+    }
+
+    .links {
+        display: none
+    }
+}
+
+@media (max-width:992px) {
+    .body {
+        display: none;
+    }
+}
+
+@media (max-width:1200px) {
+    .main-txt {
+        font-size: 70px;
+    }
+
+    .main-dsc {
+        font-size: 13px;
+    }
+}
+
+.qr-code {
+    width: 160px;
+    padding: 0px;
+    margin: 10px;
+}
+
+.wlcm {
+    padding: 25px;
+    font-size: 80px;
+    margin: 20px;
+}
+
+.block2-txt {
+    font-size: 30px;
+    background-image: url(Frame_6.png);
+    background-size: cover;
+    border-radius: 15px;
+    margin: 20px;
+    color: white;
+    padding: 50px;
+    list-style-type: none;
+}
+
+.naming1 {
+    font-size: 65px;
+}
+
+.block2 {
+    padding: 25px;
+}
+
+.logoli {
+    width: 250px;
+}
+
+
+.prog {
+    font-size: 80px;
+    padding: 45px;
+    margin: 40px;
+}
+
+.prog-txt {
+    font-size: 45px;
+    background-image: url(Frame_6.png);
+    background-size: cover;
+    border-radius: 15px;
+    margin: 20px;
+    color: white;
+    padding: 60px;
+    list-style-type: none;
+}
+
+.plane {
+    font-size: 80px;
+    margin: 85px;
+    margin: 110px;
+}
+
+.numbers {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding: 40px;
+    margin: 40px;
+    background-image: url(Frame_6.png);
+    border-radius: 15px;
+    margin: 20px;
+    background-size: cover;
+    color: white;
+    padding: 75px;
+}
+
+.number1 {
+    font-size: 90px;
+    margin: 100px;
+}
+
+.number2 {
+    font-size: 90px;
+    margin: 100px;
+}
+
+.number3 {
+    font-size: 90px;
+    margin: 100px;
+}
+
+.number4 {
+    font-size: 90px;
+    margin: 100px;
+}
+
+.numb-txt {
+    font-size: 20px;
+}
+
+.pleasure {
+    font-size: 100px;
+    padding: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    position: sticky;
+}
+
+.logo2 {
+    width: 50px;
+    padding-left: 10px;
+    position: relative;
+}
+
+
+
+.menu {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    display: flex;
+    list-style: none; 
+
+}
+
+.menu li{
+    margin: 30px;
+    font-size: 20px;
+}
+
+.menu li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
