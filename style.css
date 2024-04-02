@@ -9,18 +9,8 @@ body {
 }
 
 @font-face {
-    font-family: Sirenia;
-    src: url(Шрифты/Floodfonts\ -\ Sirenia\ Bold.otf);
-}
-
-@font-face {
-    font-family: Brigantina;
-    src: url(Шрифты/ST-Brigantina-free.otf);
-}
-
-@font-face {
     font-family: Lepka;
-    src: url(шрифты/LEPKA.otf);
+    src: url(LEPKA.otf);
 }
 
 .main {
