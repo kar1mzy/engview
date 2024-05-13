@@ -1,0 +1,166 @@
+body {
+    color: rgb(0, 0, 0);
+    font-family: Lepka;
+    background-image: url(Frame_6.png);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Lepka;
+    src: url(Шрифты/LEPKA.otf);
+}
+
+.main {
+    padding: 400px;
+    background-image: url(Frame_6.png);
+    background-size: cover;
+    border-radius: 15px;
+    margin:20px;
+}
+
+.main-txt {
+    font-size: 185px;
+    color: white;
+    padding: 0;
+}
+
+.main-dsc {
+    font-size: 25px;
+    color: white;
+}
+
+@media (min-width:992px) {
+    .qr-code {
+        display: none;
+    }
+
+    .links {
+        display: none
+    }
+
+    body {
+        background-image: none;
+    }
+
+    .link-section {
+        display: none;
+    }
+}
+
+@media (max-width:992px) {
+    .body {
+        display: none;
+    }
+}
+
+@media (max-width:1200px) {
+    .main-txt {
+        font-size: 70px;
+    }
+
+    .main-dsc {
+        font-size: 13px;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    position: sticky;
+}
+
+.logo2 {
+    width: 50px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.menu li:hover {
+    transform: translateY(-20%);
+    transition: .6s;
+}
+
+.logo2:hover {
+    transform: translateY(-10%);
+    transition: .7s;
+}
+
+.menu {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    display: flex;
+    list-style: none; 
+}
+
+.menu li{
+    margin: 30px;
+    font-size: 20px;
+}
+
+.menu li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.app-link {
+    font-family: Lepka;
+    font-size: 20px;
+    background-image: url(Frame_6.png);
+    border-radius: 15px;
+    border: medium solid rgb(255, 255, 255);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+}
+
+.headline {
+    color: white;
+    font-size: 60px;
+    margin: 40px;
+    padding: 40px;
+}
+
+@media (max-width: 576px) {
+    .headline {
+        font-size: 50px;
+        padding: 20px;
+        margin: 20px;
+    }
+}
+
+.arrow {
+    padding: 10px;
+    margin: 30px;
+    width: 100px;
+}
+
+.arrow:hover {
+    transform: translateY(10%);
+    transition: .5s;
+}
+
+.footer {
+    padding: 40px;
+}
+
+.area {
+    background-image: url(Frame_6.png);
+    background-size: cover;
+    border: medium solid white;
+    border-radius: 15px;
+    padding: 15px;
+    color: white;
+    font-family: Lepka;
+}
+
+.area:hover {
+    border: medium solid black;
+}
